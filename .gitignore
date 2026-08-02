@@ -1,0 +1,37 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Model artifacts & logs (keep directories via .gitkeep)
+models/*.h5
+models/*.keras
+models/*.json
+images/*.png
+images/*.log
+images/screenshot_*.png
+
+# Dataset downloads (large)
+dataset/**/*.jpg
+dataset/**/*.jpeg
+dataset/**/*.png
+dataset/**/*.zip
+dataset/PetImages/
+dataset/kagglecatsanddogs*
+
+# Streamlit
+.streamlit/secrets.toml
